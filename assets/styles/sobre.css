@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-image: url('../media/images/home/img_principal_header.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    height: 1100px;
+    margin: 0;
+    width: 100vw;
+}
+
+.img-header{
+    position: absolute;
+    width: 100%;
+    max-height: 1500px;
+    object-fit: cover;
+    z-index: -99999;
+}
+
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+.divTituloeSubtitulo{ /* div que possio o titulo e subtitolo da pag */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 300px;
+    padding: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+
+}
+
+#h1Header{ /* nome da escola */
+    font-size: 80px;
+}
+#h2Header{ /* texto A aventura de aprendizagem única */
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+#butConhecaProgra{ /* botão */
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#butConhecaProgra:hover{
+background-color:  rgb(26, 13, 171);
+color: rgb(255, 255, 255);
+transition: 0.5s ease;
+}
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+
+
+
+
+
+
+
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+.divTituloeSubtitulo{ /* div que possio o titulo e subtitolo da pag */
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 300px;
+    padding: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+
+}
+#h1Header{ /* nome da escola */
+    font-size: 80px;
+}
+#h2Header{ /* texto A aventura de aprendizagem única */
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#butConhecaProgra{ /* botão */
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+
+
+/* css Salome - diferencias, texto sobre e valores */
+
+.colunas { /* main que possui todo o conteudo */
+    display: flex;
+    padding: 20px;
+   flex-direction: row;
+   align-items: center;
+   margin-left: 100px;
+   margin-right: 100px;
+   font-family: "Merriweather Sans", sans-serif;
+}
+
+
+
+.textos{   
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    border-right: 1px solid gray;
+}
+.textos a{
+    text-decoration: none;
+}
+
+.text {
+    width: 70%;
+list-style: none;
+    padding-left: 30px;
+
+}
+
+.title {
+    
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.pontos{
+    padding: 30px;
+    list-style: none;
+}
+.valores{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
+    color: rgb(26, 13, 171);
+}
+
+/* eu */
+.Diferenciais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    /* border: solid red 1px; */
+    height: 500px;
+}
+.azul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 70%;
+    background-color: rgb(77, 189, 198);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Merriweather Sans", sans-serif;
+    text-align: start;
+}
+#img1diferciais{
+    position: relative;
+    height: 400px;
+    bottom: 60px;
+}
+.textos2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 200px;
+}
+.textos2 h1{
+    margin-bottom: 5px;
+}
+
+#h1Formulario{
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: rgb(77, 189, 198);
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin: 50px;
+   
+}
+
+.verde{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    width: 70%;
+    background-color: rgba(87, 240, 40, 0.452);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: "Merriweather Sans", sans-serif;
+    text-align: start;
+}
+
+
+@media (max-width: 768px){
+    .header{
+        height: fit-content;
+    }
+    .divTituloeSubtitulo{
+        margin-top: -50px;
+    
+    }
+    .azul{
+        margin-bottom: 400px;
+        margin-top: 300px;
+        font-size: 10px;
+    }
+    .verde{
+        margin-bottom: 400px;
+        margin-top: 300px;
+        font-size: 10px;
+    }
+    
+}

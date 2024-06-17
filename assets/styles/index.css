@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* background-image: url('../media/images/home/img_principal_header.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    /* height: 1100px; */
+    margin: 0;
+    width: 100vw;
+}
+
+.img-header{
+    position: absolute; /* posicionar qualquer elemento acordo com o pai */
+    width: 100%;
+    max-height: 1500px; /* altuta minima de um elemento */
+    object-fit: cover; 
+    z-index: -99999;
+}
+
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+.divTituloeSubtitulo{ /* div que possio o titulo e subtitolo da pag */
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: 300px;
+    padding: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: white;
+
+}
+
+#h1Header{ /* nome da escola */
+    font-size: 80px;
+}
+#h2Header{ /* texto A aventura de aprendizagem única */
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+#butConhecaProgra{ /* botão */
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#butConhecaProgra:hover{
+background-color:  rgb(26, 13, 171);
+color: rgb(255, 255, 255);
+transition: 0.5s ease;
+}
+/* div que tem o titúlo, subtitulo e botão que estão sobre a img principal */
+
+
+/* ResumoEscola */
+.divBrancaResumo{ /* div branca que possui o texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    height: 300px;
+    margin-top: 50px;
+    border-left: 4px solid rgb(26, 13, 171);
+    border-right: 4px solid rgb(26, 13, 171);
+    box-shadow: 2px 2px 4px rgb(26, 13, 171);
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-top: 230px;
+}
+#TexResumoEscola{ /* texto que descreve resumidamente sobre a escola */
+    font-size: 20px;
+    font-family: "Merriweather Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+#textoAzul{ /* algumas palavras do texto em destaque em azul */
+    color: rgb(26, 13, 171);
+    font-size: 24px;
+}
+/* ResumoEscola */
+
+
+
+
+/* linha do tempo com fotos e texto */
+.linhaTempo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-family: "Merriweather Sans", sans-serif;
+    gap: 20px;
+    position: relative; 
+    justify-content: center;
+}
+
+/* coluna 1 da linha do tempo */
+.milNoveOtenta{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;/* posicionamento relativo para os elementos dentro dele */
+    box-shadow: 2px 2px 4px rgba(138, 137, 137, 0.5);
+    gap: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.milNoveOtenta img{
+    height: 230px;
+    width: 400px;
+}
+#h1VerdeAgua{
+    color: rgb(1, 134, 134);
+    margin-left: 10px;
+}
+.milNoveOtenta p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* coluna 1 da linha do tempo */
+
+
+
+/* coluna 2 da linha do tempo */
+.milNoveNoveTres{
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(138, 137, 137, 0.5);
+    gap: 15px;
+    padding: 20px;
+}
+.milNoveNoveTres img{
+    height: 230px;
+    width: 400px;
+}
+#h1roxo{
+    color: rgb(155, 1, 147);
+    margin-left: 10px;
+}
+.milNoveNoveTres p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* coluna 2 da linha do tempo */
+
+
+
+/* coluna 3 da linha do tempo */
+.milNoveNoveOito{
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(138, 137, 137, 0.5);
+    gap: 15px;
+    padding: 20px;
+}
+.milNoveNoveOito img{
+    height: 230px;
+    width: 400px;
+}
+#h1Verde{
+    color: rgb(3, 185, 42);
+    margin-left: 10px;
+}
+.milNoveNoveOito p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* coluna 3 da linha do tempo */
+
+
+/* coluna 4 da linha do tempo */
+.DoisMil{
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: relative;/* posicionamento relativo para os elementos dentro dele */
+    box-shadow: 2px 2px 4px rgba(138, 137, 137, 0.5);
+    gap: 15px;
+    padding: 20px;
+}
+.DoisMil img{
+    height: 230px;
+    width: 400px;
+}
+.milNoveNoveOito p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+#h1laranja{
+    color: rgb(185, 121, 3);
+    margin-left: 10px;
+}
+.DoisMil p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* coluna 4 da linha do tempo */
+
+#setaMudaFotos{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    border: none;
+    margin-top: 215px;
+}
+
+.indicator{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* linha do tempo com fotos e texto */
+
+
+/* section Visão geral da escola */
+.VisaoGeral{ /* section - conteiner para a img de fundo e os itens de dentro */
+    min-height: 626px;
+    margin-bottom: 50px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+    
+    
+}
+.background{  /* img de fundo azul */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999; /* colocando a img na frente */
+}
+.principal{ /* div que tem o titulo e div com o grid dentro */
+    padding: 30px;
+    margin-top: 40px;
+
+}
+.principal h1{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px;
+}
+#enfase{ /* parte do titulo maior */
+    font-size: 2rem;
+}
+
+
+.grid{ /* div que tem os items com titulo e p dentro */
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, auto);
+
+}
+
+#transparent{ /* divs trasnparentes */
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 1.0rem;
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+#white{ /* divs brancas */
+    background-color: white;
+    border: 1px solid white;
+    color: rgb(26, 13, 171);
+    padding: 1.0rem;
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+#white h1{ /* titulo das divs branacs */
+    color: rgb(25, 72, 228);
+}
+#numMaior{ /* titulos maiores nas divs */
+    font-size: 3rem;
+}
+/* section Visão geral da escola */
+
+
+
+
+
+/* Avaliação dos alunos */
+.divBrancaResumoAvaliacaoAlunos{ /*div branca que possui o p que esta acima das avaliaço~es */
+    background-color: white;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border: none;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#textCentro{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+#textCentro p{
+    font-size: 27px;
+}
+
+#textoRoxo{
+    color:  rgb(180, 0, 153);
+    font-size: 30px;
+}
+/* div que possui os p de resumo que estão acima das avaliaçoes */
+
+
+
+.avaliacaoAlunos{ /* div que possuia a img, nome, e avaliação do aluno */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 10px;
+}
+
+.imgEnomeAlunos{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: "Ubuntu", sans-serif;
+   padding: 50px;
+   gap: 10px;
+}
+.imgEnomeAlunos img{ /* foto, nome e ano que o aluno se formou */
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 6px solid rgb(180, 0, 153);
+}
+
+.rosaContemTextavaliacao{ /* conteiner que possui o text de avaliação do aluno */
+    height: 400px;
+    width: 1000px;
+    background-color: rgba(180, 0, 153, 0.13);
+    border-radius: 50px;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(180, 0, 153);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
+}
+#butAvaliaAlunos{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 30px;
+    
+}
+
+@media (max-width: 768px){
+    .header{
+        height: fit-content;
+    }
+    .divTituloeSubtitulo{ /* div que tem o titulo e subtitulo que estão sobre a img */
+        margin-top: -50px;
+        height: 55px;
+    }
+    #h1Header{ /* nome escola */
+        font-size: 40px;
+    }
+    #h2Header{ /* subtitulo */
+        font-size: 15px;
+    }
+    #butConhecaProgra{
+        font-size: 10px;
+        height: 30px;
+        width: 100px;
+    }
+
+    
+    #TexResumoEscola{
+        font-size: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #textoAzul{
+        font-size: 16px;
+    }
+
+
+    .linhaTempo{
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .grid{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    
+    /* avaliação dos alunos */
+    .avaliacaoAlunos p{
+        font-size: 10px;
+    }
+    #textCentro{
+        gap: 0;
+    }
+    #textCentro p{
+        font-size: 10px;
+        color: red;
+    }
+    #textoRoxo{
+        font-size: 10px;
+    }
+    .imgEnomeAlunos img{
+        height: 100px;
+        width: 100px;
+    }
+    .rosaContemTextavaliacao{
+        height: 300px;
+        
+    }
+    
+}
